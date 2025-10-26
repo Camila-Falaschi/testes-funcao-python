@@ -18,7 +18,6 @@ class TestMaximo(unittest.TestCase):
     def test_numeros_iguais(self):
         with patch('sys.stdout', new=StringIO()) as saida:
             maximo(7, 7)
-            # Pela lógica atual, o else será executado
             self.assertEqual(saida.getvalue().strip(), "O numero 7 é o maior")
 
 
