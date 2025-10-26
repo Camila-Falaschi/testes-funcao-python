@@ -9,4 +9,7 @@ A função utiliza estruturas condicionais simples (if/else) e aplica os conceit
 ## 🧩 Estrutura do Projeto
 ├── maximo.py: Código principal com a função solicitada
 
-├── test_maximo.py: Testes automatizados utilizando unittest
+├── teste_maximo.py: Testes automatizados utilizando unittest
+
+## ▶️ Executando o Projeto
+No terminal rode o comando ```python teste_maximo.py```.
